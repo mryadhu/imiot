@@ -1,0 +1,343 @@
+
+  ::selection{
+    color: #7116d5;
+    background-color: lightblue;
+  }
+  nav{
+    position: fixed;
+    width: 100%;
+    padding-bottom: 0px;
+    padding-top: 15px;
+    padding-right: 10px;
+    z-index: 12;
+    box-shadow: 0px 1px 1px #7116d5;
+    background-color: #180a23;
+  }
+  nav .menu{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+  }
+  .menu .logo a{
+    text-decoration: none;
+    color: red;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .menu ul{
+    display: inline-flex;
+  }
+  .menu ul li{
+    list-style: none;
+    margin-left: 7px;
+  }
+  .menu ul li:first-child{
+    margin-left: 0px;
+  }
+  .menu ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .menu ul li a:hover{
+    background: #7116d5;
+    color: black;
+  }
+  body {
+    font-family:'Poppins';
+    margin: 0;
+    background-color: #180A25;
+  }
+  h1 {
+    font-size: 70px;
+    font-weight: bolder;
+    color: white;
+  
+  }
+
+
+  .home{
+    background-image: url("/imiotimg3.png");
+    height: 100%;
+    padding-top: 180px;
+    padding-left: 60px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-color:#180A25 ;
+  }
+  .button {
+    background-color:#be2596;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    background-image: linear-gradient(to top,  #a629c5,#c33894, #dd466b);
+    font-size: 22px;
+    
+  }
+  div{
+    display: block;
+  }
+  .about_us{
+    background-image:url(/imiotimg4.png);
+    background-repeat: no-repeat;
+    background-position: bottom 305px left 625px;
+    color: grey;
+    padding-top: 75px;
+    padding-left: 100px;
+
+  }
+  h2{
+    font-size: 30px;
+  }
+  .head2{
+    font-size: 45px;
+  }
+ 
+  .member_count{
+    padding-left: 180px;
+    font-size: 77px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #E50384 55%, #8A1BF7 68.02%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    margin-bottom: 0;
+  }
+.community{
+  padding-left: 180px;
+  font-size: 18px;
+  color: #70707C;
+}
+.ourway{
+  color: #70707C; 
+  padding-top: 55px;
+    padding-left: 100px;
+  
+}
+.our_way{
+  padding-left:1px;
+  font-family: Betterlett;
+  font-size: 52px;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-left: 20px;
+}  
+.ourway_{
+
+  padding-left: 150px;
+}
+h4{
+  color: white;
+}
+.hide {
+  display: none;
+  background-color: #181525;
+}
+
+.our_way:hover + .hide {
+  display: block;
+  color: grey;
+}
+.our_way::selection {
+  color: red;
+  background-color: yellow;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  transition: flex .4s ease;
+  position: relative;
+}
+
+.section .overlay {
+  background-color: #1d1b2a;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  transition: background-color .8s ease;
+  border-radius: 25px;
+}
+
+.section .content {
+  z-index: 2;
+}
+
+.section:hover {
+  flex: 2;
+}
+
+.section:hover .overlay {
+  background-color: #7a19d0;
+}
+
+#marketing {
+ background-color: #180a25 ;
+}
+
+
+#technology {
+  background-color:#180a25;
+}
+
+#advertising {
+  background-color:#180a25;
+}
+.ourproduct{
+  color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+.our_product{
+  padding-top: 0px;
+}
+.track{
+  color: #70707C;
+    font-size: 12px;
+    width: 200px;
+}
+.scroller{
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin-top: -60px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.team_list {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  transition: all 0.2s;
+  transform: scale(0.98);
+  will-change: transform;
+  user-select: none;
+  cursor: pointer;
+}
+.teamlist{
+    border-radius: 30px;
+    margin: 30px;
+    padding: 30px;
+    background: linear-gradient(150deg, #201E2D 0%, #120F20 100%);
+}
+.team_member {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 0px;
+}
+.center{
+  padding-left: 90px;
+  
+}
+td{
+  padding-left: 100px;
+  padding-bottom: 40px;
+  
+}
+p{
+  color:#70707C ;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  color: #fff;
+  font-size: 19px;
+}
+input {
+  background: none;
+  border: none;
+  font-size: 15px;
+  padding: 15px;
+  padding-left: 0px;
+  padding-right: 200px;
+  border-bottom: 1px solid grey;
+  margin-bottom: 25px;
+}
+label span {
+  color: #F90000;
+}
+
+.submit {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  border: 1px solid #F55240;
+  text-align: center;
+  width: 200px;
+  border-radius: 30px;
+  padding: 15px;
+  margin: auto;
+  margin-top: 0px;
+}
+
+.imtlogo{
+  padding-left: 150px;
+}
+@font-face {
+  color: #fff;
+    font-size: 12px;
+    font-weight: 00;
+    
+    font-family: Betterlett;
+  src: url("/Betterlett.otf") format("opentype");
+}
+.foot{
+  color: grey;
+    font-size: 14px;
+    margin: 0;
+    text-decoration: none;
+}
+.call{
+  background: linear-gradient(90deg, #40EAF5 0%, #504DFF 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  margin-bottom: 0; 
+}
+.foothead{
+  color: grey;
+    font-weight: bold;
+    font-size: 15px;
+}
